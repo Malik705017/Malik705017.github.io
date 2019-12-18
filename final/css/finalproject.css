@@ -1,0 +1,202 @@
+.center 
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h2
+{
+    background-color: black;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80%;
+    padding: 15px;
+}
+img
+{
+    width: 200px;
+    height: 300px;
+}
+th, td
+{
+    padding: 15px;
+}
+table
+{
+    width:80%;
+    table-layout:fixed;
+}
+table, th, td
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th
+{
+    background-color: rgb(243, 245, 111);
+}
+td.money
+{
+    color: red;
+    font-weight:bold;  /*字體加粗*/
+}
+button.shop
+{
+    border-style: solid; 
+    border-width: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+    border-color:orange; 
+    background-color:yellow;
+    color: #222222;
+    font-weight:bold;  /*字體加粗*/
+}
+button.loadmore
+{
+    border-width: 1px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 6px;
+    width:80%;
+    background-color: black;
+    color: white;
+    font-weight:bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+button:hover /*滑鼠移動到按鈕時變色*/
+{
+    background-color: orange;
+}
+#header
+{
+    background-color:black;
+    height:150px;
+    width: 100%;
+    position: relative;
+    color:white;
+}
+#headerimg
+{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:20px;
+    left:40px;
+}
+#footer
+{
+    background-color:black;
+    height:450px;
+    width:100%;
+    color:white;
+    position: relative; /*幫助footerimg定位*/
+}
+#footerimg
+{
+    width:200px;
+    height:200px;
+    position:absolute;
+    bottom:100px;
+    right:20px;
+}
+#footerth
+{
+    background-color:black;
+    color:lightblue;
+}
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: rgb(243, 245, 124);
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    position: absolute;
+    top:20px;
+    left:350px;
+} 
+li,li>a
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: large;
+}
+li:hover:not(.active)
+{
+    background-color: #111;
+}
+.active
+{
+    background-color:darkgray;
+}
+.shopimg
+{
+    width: 50px;
+    height: 75px;
+}
+img.shopimg:hover
+{
+    transform:scale(1.5,1.5);
+    transition: all 0.5s ease-out;
+}
+
+.box:hover .box-hover-text
+{
+    display: block;
+}
+.box
+{
+    position: relative;
+}
+.box-hover-text {
+    position: absolute; 
+    display: none;
+    background-color: rgba(0,0,0, 0.7);
+    color:white;
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+.box-hover-text>h4
+{
+    margin-top: 5px;
+}
+.box-hover-text>p 
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+footer {
+    text-align: center;
+    color:white;
+}
+#compute , #TP , #randProduct0 , #randProduct1
+{
+    display: none;
+}
+#TP
+{
+    margin-top: 10px;
+    width: 50%;
+    padding: 5px;
+    border-color: orange;
+    border-width: 2px;
+    border-style:solid;
+    background-color: yellow;
+}
