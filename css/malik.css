@@ -1,4 +1,13 @@
 a
 {
-    color: rgb(53, 3, 100);
+    color: rgb(113, 35, 185);
+}
+a.project-list
+{
+    color: black;
+    padding: 2px;
+}
+span
+{
+    color: rgb(113, 35, 185);
 }
