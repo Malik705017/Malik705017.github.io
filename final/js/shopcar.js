@@ -95,6 +95,21 @@ $(() => {
     $('.RIRA').on('click', () => {
         ShopCar(10,1350)
     })
+    $('.SD37').on('click', () => {
+        ShopCar(11,700)
+    })
+    $('.20PP').on('click', () => {
+        ShopCar(12,700)
+    })
+    $('.LVP3').on('click', () => {
+        ShopCar(13,1000)
+    })
+    $('.LGB1').on('click', () => {
+        ShopCar(14,2000)
+    })
+    $('.ETCO').on('click', () => {
+        ShopCar(15,1450)
+    })
 
     /* 結算購物車商品總價格 */
     $('#compute').on('click', () => {
@@ -115,10 +130,6 @@ $(() => {
         
         $('.loadmore').hide()
         $('#randProduct'+ loadNum).show()
-
-        $AnotherButton = $('<button>Load More</button>').addClass('center').addClass('loadmore')
-        $('#randProduct'+loadNum).append($AnotherButton)
-
         loadNum = loadNum + 1
     })
 
