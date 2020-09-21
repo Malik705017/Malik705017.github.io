@@ -12,6 +12,10 @@ span
     color: rgb(113, 35, 185);
 }
 hr{
-    border-width: 2px;
-    margin:30px;
+    border-width: 1px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: #13113a;
 }
