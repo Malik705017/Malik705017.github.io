@@ -11,3 +11,7 @@ span
 {
     color: rgb(113, 35, 185);
 }
+hr{
+    border-width: 2px;
+    margin:30px;
+}
