@@ -19,3 +19,7 @@ hr{
     margin-bottom: 30px;
     border-color: #13113a;
 }
+.media-img{
+    border-radius: 50%;
+    padding: 1%;
+}

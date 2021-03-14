@@ -7,7 +7,7 @@
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: darkgrey;
+    background-color: white;
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -15,7 +15,7 @@
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: #13113a;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -38,7 +38,7 @@
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #FF9F55;
+    border: 4px solid #13113a;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -63,9 +63,9 @@
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid white;
+    border: medium solid rgb(245, 245, 245);
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent rgb(245, 245, 245);
   }
   
   /* Add arrows to the right container (pointing left) */
@@ -77,9 +77,9 @@
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid rgb(245, 245, 245);
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent rgb(245, 245, 245) transparent transparent;
   }
   
   /* Fix the circle for containers on the right side */
@@ -89,8 +89,8 @@
   
   /* The actual content */
   .t-content {
-    padding: 20px 30px;
-    background-color: white;
+    padding: 10px 10px;
+    background-color: rgb(245, 245, 245);
     position: relative;
     border-radius: 6px;
   }
@@ -100,6 +100,10 @@
     /* Place the timelime to the left */
     .timeline::after {
     left: 31px;
+    }
+
+    .t-content{
+      padding: 5px 5px;
     }
     
     /* Full-width containers */
